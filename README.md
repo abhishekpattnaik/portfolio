@@ -1,7 +1,7 @@
-# vCard - Personal Portfolio
+# Abhishek's Portfolio
 
-A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript.  
-Showcase your experience, skills, projects, and contact information in a clean, interactive format.
+A simple and responsive personal portfolio website built with HTML, CSS, and JavaScript.  
+Showcase my experience, skills, projects, and contact information in a clean, interactive format.
 
 ## Features
 
@@ -18,8 +18,8 @@ Showcase your experience, skills, projects, and contact information in a clean, 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/vcard-personal-portfolio.git
-   cd vcard-personal-portfolio
+   git clone https://github.com/abhishekpattnaik/portfolio.git
+   cd portfolio
    ```
 
 2. **Open `index.html` in your browser.**
@@ -32,7 +32,7 @@ Showcase your experience, skills, projects, and contact information in a clean, 
 ## Folder Structure
 
 ```
-vcard-personal-portfolio/
+portfolio/
 ├── assets/
 │   ├── css/
 │   │   └── style.css
@@ -40,6 +40,10 @@ vcard-personal-portfolio/
 │   └── js/
 │       └── script.js
 ├── index.html
+├── index.txt
+├── .gitignore
+├── changelog.txt
+├── LISCENCE
 └── README.md
 ```
 
@@ -51,7 +55,6 @@ You can deploy this site on GitHub Pages or any static hosting provider.
 
 - [Ionicons](https://ionicons.com/) for icons
 - [Google Fonts](https://fonts.google.com/)
-- Original template by [codewithsadee](https://github.com/codewithsadee)
 
 ## License
 
