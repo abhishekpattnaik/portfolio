@@ -2,483 +2,720 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
 
-  <title>My Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!--
+    - #MAIN
+  -->
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+  <main>
 
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Abhishek Pattnaik</a></h1>
-        <div class="social-links mt-3 text-center">
-          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-          <a href="https://www.facebook.com/infectedpriest98" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/abhishekpattnaik96/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-          <a href="https://www.linkedin.com/in/abhishek-pattnaik/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Abhishek Pattnaik" width="70">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Abhishek Pattnaik">Abhishek Pattnaik</h1>
+
+          <p class="title">Software Engineer</p>
         </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
       </div>
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Gallery</span></a></li>
-          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Testimonials</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:abhishekpattnaik06@gmail.com" class="contact-link">abhishekpattnaik06@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918480079939" class="contact-link">+91 84800 79939</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mumbai, India</address>
+            </div>
+
+          </li>
+
         </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Abhishek Pattnaik</h1>
-      <p>I'm <span class="typed" data-typed-items="a Developer,an Engineer,a Musician"></span></p>
-    </div>
-  </section><!-- End Hero -->
+        <div class="separator"></div>
 
-  <main id="main">
+        <ul class="social-list">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>A successful web developer offering more than one year of experience in demanding environments focused on producing cutting-edge systems for web development. Skilled in directing development with creative and performance-oriented approach. Well-organized and customer-focused with proven skills in project management and team leadership.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/user-img.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Backend Developer.</h3>
-            <!-- <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p> -->
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>20 January 1997</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://abhishekpattnaik.github.io/portfolio/</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 8480079939</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bangalore, India</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>abhishekpattnaik06@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
-              </div>
-            </div>
-            <!-- <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p> -->
-          </div>
-        </div>
+          <li class="social-item">
+            <a href="https://linkedin.com/in/abhishek-pattnaik" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://instagram.com/abhishekpattnaik007" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://facebook.com/infectedpriest98" class="social-link" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/abhishekpattnaik" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://orcid.org/0009-0000-8851-3668" class="social-link" target="_blank" title="ORCID">
+              <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID" style="width:18px;height:18px;display:inline-block;vertical-align:middle;border-radius:3px;">
+            </a>
+          </li>
+        </ul>
 
       </div>
-    </section><!-- End About Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
+    </aside>
 
-        <div class="section-title">
-          <h2>Skills</h2>
-        </div>
+    <!--
+      - #main-content
+    -->
 
-        <div class="row skills-content">
+    <div class="main-content">
 
-          <div class="col-lg-6" data-aos="fade-up">
+      <!--
+        - #NAVBAR
+      -->
 
-            <div class="progress">
-              <span class="skill">Python <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Dynamic Software Engineer with a proven track record at Accrete AI, specializing in ETL processes and API
+            development. Expert in Python, I excel in building efficient data pipelines and enhancing user experiences
+            through advanced search capabilities. Adept at problem-solving and delivering impactful solutions in
+            fast-paced environments.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Backend Development" width="40">
               </div>
-            </div>
 
-            <div class="progress">
-              <span class="skill">Django <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
 
-            <div class="progress">
-              <span class="skill">Docker <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Mongo <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">PostgresDB <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Redis <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>Successful web developer offering more than one year of experience in demanding environments focused on producing cutting-edge systems for web development. Skilled in directing development with creative and performance-oriented approach. Well-organized and customer-focused with proven skills in project management and team leadership.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Abhishek Pattnaik</h4>
-              <p><em>Innovative and deadline-driven backend developer with 1+ year of experience designing and developing server side app as marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Bangalore</li>
-                <li>+91 8480079939</li>
-                <li>abhishekpattnaik06@gmail.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor of Technology(Computer Science and Engineering)</h4>
-              <h5>2015 - 2019</h5>
-              <p><em>National Institute of Science and Technology, Odisha, IN</em></p>
-              <p>Did B.Tech on Computer Science and Technology</p>
-            </div>
-            <div class="resume-item">
-              <h4>Intermediate</h4>
-              <h5>2013 - 2015</h5>
-              <p><em>Nalanda Vidyaniketan, Vijayawada, IN</em></p>
-              <p>Completed my senior secondary high school on CBSE board</p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Junior Backend Developer</h4>
-              <h5>2021 - Present</h5>
-              <p><em>Adcuratio, Bangalore, IN </em></p>
-              <ul>
-                <li>Developed a platform for making TV ads more targeted using Redis, Mongodb, Django,  Celery </li>
-                <li>Creating algorithms for swapping TV ads between the brands of the company. </li>
-                <li>Rest APIs with different permission for multiple users </li>
-                <li>Processes and Greenlets for achieving the efficient time for processing huge data. </li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Internship</h4>
-              <h5>Nov - Jan(2020)</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed a backend web application through REST framework using Django and established a self 
-                  recommendation system which will list out top best matching websites according to user's interest
-                <li>Maintained a proper architectural flow for end to end processing where all the resources will be integrated and functioned effectively.</li>
-                <!-- <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
-                </ul>
-            </div>
-          </div>
-          <h6 class="title"><a href="https://docs.google.com/document/d/1IHZDae7d_2NB0UtwJG-1xyU7qkyQ0zaXQCNNNWIRWQ4/edit?usp=sharing">Resume Link</a></h6>
-
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Gallery</h2>
-        </div>
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Band</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-details-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="NMS"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container"></div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-        </div>
-
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Abhishek is amazing at his job! He knows his way around people, he does whatever it takes to help colleagues and gets things done.He makes sure that everyone is on the same page and focused on the main goal. The collaboration was very smooth and his assistance definitely made a huge impact on our success.Abhishek is a great professional!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <p class="service-item-text">
+                  Building robust APIs and scalable backend systems using Python, Golang, and modern frameworks.
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Arti Sain</h3>
-                <h4>Software Developer at Adcuratio</h4>
               </div>
-            </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  It's my pleasure to strongly recommend Abhishek for a position as a backend developer. He has great talent in technical applications such as python, mongoDB and few other tools. He is a joy to work with because of his amazing positive attitude and eagerness to stick tightly to deadline s. His attitude and team building skills are also amazing.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-db.png" alt="Data Engineering" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+
+                <p class="service-item-text">
+                  Designing and maintaining ETL pipelines, semantic search, and distributed systems for data-driven
+                  solutions.
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Rashmi Bhatt</h3>
-                <h4>Frontend Developer at Adcuratio</h4>
               </div>
-            </div><!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Abhishek is amazing at his job! He knows his way around people, he does whatever it takes to help colleagues and gets things done.He makes sure that everyone is on the same page and focused on the main goal. The collaboration was very smooth and his assistance definitely made a huge impact on our success.Abhishek is a great professional!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cloud.png" alt="Cloud & DevOps" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud & DevOps</h4>
+
+                <p class="service-item-text">
+                  Infrastructure management using AWS, Terraform, and orchestration with Apache Airflow.
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Sripriya</h3>
-                <h4>Frontend Developer at Adcuratio</h4>
               </div>
-            </div> -->
-            <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  It's my pleasure to strongly recommend Abhishek for a position as a backend developer. He has great talent in technical applications such as python, mongoDB and few other tools. He is a joy to work with because of his amazing positive attitude and eagerness to stick tightly to deadline s. His attitude and team building skills are also amazing.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ps.png" alt="Problem Solving" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem Solving</h4>
+
+                <p class="service-item-text">
+                  Delivering impactful solutions and optimizing user experience in fast-paced environments.
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Tejas Vaidya</h3>
-                <h4>Backend Developer at Adcuratio</h4>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Abhishek is one of those rare breed of professionals who is passionate about his work and can go to any extreme to execute an task as per deadline.Lots of knowledge sharing. Sharp thinker and planner. I know he has a great future ahead. Best of luck and I’ve great hopes from him.          
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Yaswanth</h3>
-                <h4>Frontend Developer at Adcuratio</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Abhishek is a tech ardent automation expert. He strictly follows the Management philosophy that pushes for development of new goods or services based on firm's technical abilities instead of proven demand. He possess unique ability to bring whole team on a single page by manoeuvring his Leadership skills.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
-                <h3>Divyaraj Singh</h3>
-                <h4>The Principle Technical Strategist at IIIT-B</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A002 Residency Park, Bangalore, IN 560102</p>
               </div>
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>abhishekpattnaik06@gmail.com</p>
-              </div>
+            </li>
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 8480079939</p>
-              </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15556.54707181666!2d77.6500043!3d12.8989259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d27a59df1476445!2sResidency%20Park!5e0!3m2!1sen!2sin!4v1621095550314!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+          </ul>
 
-          </div>
+        </section>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/testimonials-1.jpg" alt="Arti Sain" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Arti Sain</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Abhishek is amazing at his job! He knows his way around people, he does whatever it takes to help colleagues and gets things done. He makes sure that everyone is on the same page and focused on the main goal. The collaboration was very smooth and his assistance definitely made a huge impact on our success. Abhishek is a great professional!
+                  </p>
+                  <span class="testimonial-role">Software Developer at Adcuratio</span>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/testimonials-2.jpg" alt="Rashmi Bhatt" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rashmi Bhatt</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    It's my pleasure to strongly recommend Abhishek for a position as a backend developer. He has great talent in technical applications such as python, mongoDB and few other tools. He is a joy to work with because of his amazing positive attitude and eagerness to stick tightly to deadlines. His attitude and team building skills are also amazing.
+                  </p>
+                  <span class="testimonial-role">Frontend Developer at Adcuratio</span>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/testimonials-4.jpg" alt="Yaswanth" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Yaswanth</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Abhishek is one of those rare breed of professionals who is passionate about his work and can go to any extreme to execute a task as per deadline. Lots of knowledge sharing. Sharp thinker and planner. I know he has a great future ahead. Best of luck and I’ve great hopes from him.
+                  </p>
+                  <span class="testimonial-role">Frontend Developer at Adcuratio</span>
+                </div>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/testimonials-6.jpg" alt="Divyaraj Singh" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Divyaraj Singh</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Abhishek is a tech ardent automation expert. He strictly follows the Management philosophy that pushes for development of new goods or services based on firm's technical abilities instead of proven demand. He possess unique ability to bring whole team on a single page by manoeuvring his Leadership skills.
+                  </p>
+                  <span class="testimonial-role">The Principle Technical Strategist at IIIT-B</span>
+                </div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
 
         </div>
 
-      </div>
-    </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+        <!--
+          - clients
+        -->
 
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      </article>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Experience Section -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer</h4>
+              <span>10/2022 – Present, Accrete AI, Mumbai</span>
+              <p class="timeline-text">
+                • Developed DAGs (Directed Acyclic Graphs) using Apache Airflow.<br>
+                • Utilized AWS Glue scripts for ETL (Extract, Transform, Load) processes.<br>
+                • Proficient in Terraform for infrastructure management.<br>
+                • Contributed to the development and maintenance of ETL pipelines.<br>
+                • Developed and implemented a content-serving feature with advanced algorithms for personalised content delivery based on user search queries.<br>
+                • Designed and executed an efficient pipeline to populate worldwide entities data into ElasticSearch, incorporating score mappings for enhanced search result relevance.<br>
+                • Integrated Semantic Search functionality as a core element of the infrastructure, elevating search capabilities and optimising user experience.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+              <span>04/2022 – 08/2022, Apps For Bharat, Bangalore</span>
+              <p class="timeline-text">
+                • Worked closely with API services to define and consume API services for the apps.<br>
+                • Conducted unit tests for code robustness, including edge cases, usability, and reliability.<br>
+                • Focused on service builds using Golang as the primary programming language and developed REST APIs backed by PostgreSQL, using Gorilla Mux.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Senior Software Engineer</h4>
+              <span>10/2021 – 03/2022, Moengage, Bangalore</span>
+              <p class="timeline-text">
+                • Implemented robust pipelines for efficient email broadcast using a distributed system, ensuring reliable delivery and scalability.<br>
+                • Played a key role in customer engagement services, providing on-call development support to address and resolve client-side issues in live environments, ensuring seamless user experiences.<br>
+                • Concentrated efforts on API development and integrations, working closely with various systems to seamlessly connect and enhance functionality through effective API integration.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+              <span>01/2020 – 10/2021, Adcuratio, Bangalore</span>
+              <p class="timeline-text">
+                • Built a robust platform leveraging Redis, MongoDB, Django, Celery, and Linux (Debian, CentOS, Red Hat, Ubuntu).<br>
+                • Data Processing: Elastic Search, Semantic Search.<br>
+                • Software Development Methodologies: Agile, Scrum.<br>
+                • Project Management Tools: Zoho, Jira, ClickUp.<br>
+                • Data Engineering: Apache Airflow, Terraform.<br>
+                • Data Structures and Algorithms.<br>
+                • REST API Development.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer - Intern</h4>
+              <span>11/2019 – 01/2020, Adcuratio, Bangalore</span>
+              <p class="timeline-text">
+                • Established a self-recommendation system that listed top best matching websites based on user interests.<br>
+                • Technologies used: Django (web framework), MongoDB (database), TF-IDF terminology (post-processing).
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <!-- Education Section -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Technology, Computer Science and Engineering</h4>
+              <span>01/2019, National Institute of Science And Technology - Brahmapur, India</span>
+              <p class="timeline-text">
+                Graduated with a focus on software engineering, data structures, algorithms, and distributed systems.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python, Golang</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Django, Flask, Pyramid</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Gorilla Mux, REST API</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB, PostgreSQL</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AWS (EC2, S3, SQS)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git, Linux</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Elastic & Semantic Search</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Agile, Airflow, Terraform</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures & Algorithms</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Unit Testing, Distributed Systems</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- Additional Sections -->
+        <section class="skill contact-links-section">
+          <h3 class="h3 skills-title">Contact & Links</h3>
+          <ul class="skills-list content-card contact-links-list">
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="location-outline"></ion-icon> Address:</span>
+              <span class="contact-value">Mumbai, India</span>
+            </li>
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="call-outline"></ion-icon> Phone:</span>
+              <a class="contact-value" href="tel:+918480079939">+91 84800 79939</a>
+            </li>
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="mail-outline"></ion-icon> Email:</span>
+              <a class="contact-value" href="mailto:abhishekpattnaik06@gmail.com">abhishekpattnaik06@gmail.com</a>
+            </li>
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn:</span>
+              <a class="contact-value" href="https://linkedin.com/in/abhishekpattnaik" target="_blank">linkedin.com/in/abhishekpattnaik</a>
+            </li>
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="globe-outline"></ion-icon> Portfolio:</span>
+              <a class="contact-value" href="https://abhishekpattnaik.github.io/portfolio" target="_blank">abhishekpattnaik.github.io/portfolio</a>
+            </li>
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="document-outline"></ion-icon> Resume:</span>
+              <a class="contact-value" href="https://drive.google.com/file/d/1wKuD9T7p778IlTu0b_4yU7q5R3lKvwJN/edit" target="_blank" download>Download Resume (PDF)</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="skill awards-links-section">
+          <h3 class="h3 skills-title">Awards & Interests</h3>
+          <ul class="skills-list content-card awards-links-list">
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="trophy-outline"></ion-icon> Awards:</span>
+              <span class="contact-value">
+                Problem Solving Certificate, HackerRank<br>
+                AI From the Data Center to the Edge - Intel
+              </span>
+            </li>
+            <li class="skills-item">
+              <span class="contact-label"><ion-icon name="musical-notes-outline"></ion-icon> Hobbies:</span>
+              <span class="contact-value">
+                Playing guitar, keyboard, and ukulele<br>
+                Composing soundtracks<br>
+                Playing cricket and football
+              </span>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.701766348!2d72.71412883190783!3d19.08248221208499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1749084312886!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScUv8hLc9c8jMWS9T9zbtmRLUwUAp6Gbl6c0oRBmI1SGuX4Fw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <div style="margin-top:10px;color:var(--orange-yellow-crayola);font-size:14px;">
+            The form will open Google Forms in a new tab for confirmation.
+          </div>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 

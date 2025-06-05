@@ -1,0 +1,186 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Abhishek Pattnaik
+Abhishek Pattnaik
+Software Engineer
+
+Show Contacts
+
+Email
+abhishekpattnaik06@gmail.com
+
+Phone
++91 84800 79939
+
+Location
+Mumbai, India
+
+# Social Links
+
+LinkedIn: https://linkedin.com/in/abhishek-pattnaik
+Instagram: https://instagram.com/abhishekpattnaik007
+Facebook: https://facebook.com/infectedpriest98
+GitHub: https://github.com/abhishekpattnaik
+ORCID: https://orcid.org/0009-0000-8851-3668
+
+# navbar
+
+About
+Resume
+Contact
+
+# about
+
+About me
+
+Dynamic Software Engineer with a proven track record at Accrete AI, specializing in ETL processes and API development. Expert in Python, I excel in building efficient data pipelines and enhancing user experiences through advanced search capabilities. Adept at problem-solving and delivering impactful solutions in fast-paced environments.
+
+## service
+
+What I'm doing
+
+alt = icon-dev.svg
+Backend Development
+Building robust APIs and scalable backend systems using Python, Golang, and modern frameworks.
+
+alt = icon-db.png
+Data Engineering
+Designing and maintaining ETL pipelines, semantic search, and distributed systems for data-driven solutions.
+
+alt = icon-cloud.png
+Cloud & DevOps
+Infrastructure management using AWS, Terraform, and orchestration with Apache Airflow.
+
+alt = icon-ps.png
+Problem Solving
+Delivering impactful solutions and optimizing user experience in fast-paced environments.
+
+## testimonials
+
+Testimonials
+
+alt = Arti Sain
+Arti Sain
+Abhishek is amazing at his job! He knows his way around people, he does whatever it takes to help colleagues and gets things done. He makes sure that everyone is on the same page and focused on the main goal. The collaboration was very smooth and his assistance definitely made a huge impact on our success. Abhishek is a great professional!
+Software Developer at Adcuratio
+
+alt = Rashmi Bhatt
+Rashmi Bhatt
+It's my pleasure to strongly recommend Abhishek for a position as a backend developer. He has great talent in technical applications such as python, mongoDB and few other tools. He is a joy to work with because of his amazing positive attitude and eagerness to stick tightly to deadlines. His attitude and team building skills are also amazing.
+Frontend Developer at Adcuratio
+
+alt = Yaswanth
+Yaswanth
+Abhishek is one of those rare breed of professionals who is passionate about his work and can go to any extreme to execute a task as per deadline. Lots of knowledge sharing. Sharp thinker and planner. I know he has a great future ahead. Best of luck and I’ve great hopes from him.
+Frontend Developer at Adcuratio
+
+alt = Divyaraj Singh
+Divyaraj Singh
+Abhishek is a tech ardent automation expert. He strictly follows the Management philosophy that pushes for development of new goods or services based on firm's technical abilities instead of proven demand. He possess unique ability to bring whole team on a single page by manoeuvring his Leadership skills.
+The Principle Technical Strategist at IIIT-B
+
+# resume
+
+Resume
+
+Experience
+
+Software Engineer
+10/2022 – Present, Accrete AI, Mumbai
+• Developed DAGs (Directed Acyclic Graphs) using Apache Airflow.
+• Utilized AWS Glue scripts for ETL (Extract, Transform, Load) processes.
+• Proficient in Terraform for infrastructure management.
+• Contributed to the development and maintenance of ETL pipelines.
+• Developed and implemented a content-serving feature with advanced algorithms for personalised content delivery based on user search queries.
+• Designed and executed an efficient pipeline to populate worldwide entities data into ElasticSearch, incorporating score mappings for enhanced search result relevance.
+• Integrated Semantic Search functionality as a core element of the infrastructure, elevating search capabilities and optimising user experience.
+
+Software Developer
+04/2022 – 08/2022, Apps For Bharat, Bangalore
+• Worked closely with API services to define and consume API services for the apps.
+• Conducted unit tests for code robustness, including edge cases, usability, and reliability.
+• Focused on service builds using Golang as the primary programming language and developed REST APIs backed by PostgreSQL, using Gorilla Mux.
+
+Senior Software Engineer
+10/2021 – 03/2022, Moengage, Bangalore
+• Implemented robust pipelines for efficient email broadcast using a distributed system, ensuring reliable delivery and scalability.
+• Played a key role in customer engagement services, providing on-call development support to address and resolve client-side issues in live environments, ensuring seamless user experiences.
+• Concentrated efforts on API development and integrations, working closely with various systems to seamlessly connect and enhance functionality through effective API integration.
+
+Software Developer
+01/2020 – 10/2021, Adcuratio, Bangalore
+• Built a robust platform leveraging Redis, MongoDB, Django, Celery, and Linux (Debian, CentOS, Red Hat, Ubuntu).
+• Data Processing: Elastic Search, Semantic Search.
+• Software Development Methodologies: Agile, Scrum.
+• Project Management Tools: Zoho, Jira, ClickUp.
+• Data Engineering: Apache Airflow, Terraform.
+• Data Structures and Algorithms.
+• REST API Development.
+
+Software Developer - Intern
+11/2019 – 01/2020, Adcuratio, Bangalore
+• Established a self-recommendation system that listed top best matching websites based on user interests.
+• Technologies used: Django (web framework), MongoDB (database), TF-IDF terminology (post-processing).
+
+Education
+
+Bachelor of Technology, Computer Science and Engineering
+01/2019, National Institute of Science And Technology - Brahmapur, India
+Graduated with a focus on software engineering, data structures, algorithms, and distributed systems.
+
+My skills
+
+Python, Golang
+95%
+Django, Flask, Pyramid
+90%
+Gorilla Mux, REST API
+85%
+MongoDB, PostgreSQL
+85%
+AWS (EC2, S3, SQS)
+80%
+Git, Linux
+80%
+Elastic & Semantic Search
+80%
+Agile, Airflow, Terraform
+75%
+Data Structures & Algorithms
+85%
+Unit Testing, Distributed Systems
+75%
+
+Contact & Links
+
+Address: Mumbai, India
+Phone: +91 84800 79939
+Email: abhishekpattnaik06@gmail.com
+LinkedIn: https://linkedin.com/in/abhishekpattnaik
+Portfolio: https://abhishekpattnaik.github.io/portfolio
+Resume: https://drive.google.com/file/d/1wKuD9T7p778IlTu0b_4yU7q5R3lKvwJN/edit
+
+Awards & Interests
+
+Awards:
+Problem Solving Certificate, HackerRank
+AI From the Data Center to the Edge - Intel
+
+Hobbies:
+Playing guitar, keyboard, and ukulele
+Composing soundtracks
+Playing cricket and football
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
